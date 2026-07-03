@@ -1,5 +1,7 @@
 # Spiritus — Android Client
 
+English | [فارسی](README.fa.md)
+
 Official Android client for the [Spiritus VPN panel](https://github.com/v74all/Spiritus). One app for every kind of user: a **subscriber** importing a config link, an **agent** managing their own customers, or an **admin** running the whole panel — all from the phone.
 
 Built with Kotlin, Jetpack Compose, and sing-box/Xray as the tunneling engine.

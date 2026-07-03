@@ -1,0 +1,19 @@
+--- a/option/tun.go
++++ b/option/tun.go
+@@ -44,6 +44,7 @@ type TunInboundOptions struct {
+ 	Stack                         string                           `json:"stack,omitempty"`
+ 	Platform                      *TunPlatformOptions              `json:"platform,omitempty"`
++	FileDescriptor                int                              `json:"file_descriptor,omitempty"`
+ 	InboundOptions
+ 
+ 	// Deprecated: removed
+--- a/protocol/tun/inbound.go
++++ b/protocol/tun/inbound.go
+@@ -216,6 +216,7 @@ func NewInbound(ctx context.Context, router adapter.Router, logger log.ContextL
+ 			ExcludeMACAddress:                     excludeMACAddress,
+ 			InterfaceMonitor:                      networkManager.InterfaceMonitor(),
+ 			EXP_MultiPendingPackets:               multiPendingPackets,
++			FileDescriptor:                        options.FileDescriptor,
+ 		},
+ 		udpTimeout:        udpTimeout,
+ 		stack:             options.Stack,

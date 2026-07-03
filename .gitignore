@@ -1,0 +1,48 @@
+# ── Build outputs ────────────────────────────────────────────────────────
+.gradle/
+build/
+app/build/
+captures/
+*.apk
+*.aab
+*.ap_
+*.dex
+.kotlin/
+
+# ── Local machine config (per-developer, never shared) ─────────────────
+local.properties
+
+# ── Signing — a leaked keystore lets anyone publish a malicious "update"
+#    that looks legitimately signed by this project. Never commit these.
+keystore/
+keystore.properties
+*.jks
+*.keystore
+*.p12
+*.pem
+
+# ── IDE / editor ─────────────────────────────────────────────────────────
+.idea/
+.vscode/
+.cursor/
+*.iml
+.DS_Store
+
+# ── Vendored reference source — not part of this app's Gradle build, kept
+#    locally only for patch reference. See docs/ for details if reintroduced.
+.sing-box-src/
+
+# ── Logs ─────────────────────────────────────────────────────────────────
+*.log
+
+# ── One-off local dev scratch, not part of the shipped app ─────────────
+/test.kt
+/fix_vpn_xray_config.py
+
+# ── Stale full-source backup snapshot (129 files, incl. old copies of the
+#    native binaries) — superseded, not tracked.
+/app/src/main.zip
+
+# ── Never ship a stale prebuilt APK inside the repo — releases are
+#    published as GitHub Release assets instead, see RELEASING.md.
+/V7L-Panel-v1.0.0-release.apk

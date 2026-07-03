@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Spiritus</string>
+    <string name="login_title">احراز هویت</string>
+    <string name="password_hint">رمز عبور</string>
+    <string name="connect_button">ورود</string>
+    <string name="server_select_title">اتصال‌های سرور</string>
+    <string name="add_server">افزودن سرور</string>
+    <string name="scan_qr">اسکن QR</string>
+    <string name="help">راهنما</string>
+    <string name="guide">راهنمای جامع</string>
+    <string name="copy">کپی</string>
+    <string name="share">اشتراک‌گذاری</string>
+    <string name="paste">پیست</string>
+    <string name="cancel">انصراف</string>
+    <string name="add">افزودن</string>
+    <string name="settings">تنظیمات</string>
+    <string name="logout">خروج</string>
+    <string name="users">کاربران</string>
+    <string name="monitoring">مانیتورینگ</string>
+    <string name="more">بیشتر</string>
+    <string name="agents">نمایندگان</string>
+    <string name="groups">گروه‌های کاربری</string>
+    <string name="backups">پشتیبان‌گیری</string>
+    <string name="kill_log">لاگ قطع اتصال</string>
+    <string name="dashboard">داشبورد</string>
+    <string name="subscription">اشتراک</string>
+    <string name="search_users">/ جستجو کاربران...</string>
+    <string name="no_users">کاربری یافت نشد</string>
+    <string name="pull_refresh">برای بروزرسانی بکشید</string>
+    <string name="lockout_title">تعداد زیاد ورود ناموفق</string>
+    <string name="lockout_msg">حساب قفل شده. لطفاً صبر کنید.</string>
+    <string name="camera_permission">دسترسی به دوربین لازم است</string>
+    <string name="grant_permission">دادن مجوز</string>
+    <string name="session_expired">نشست منقضی شد. لطفاً دوباره وارد شوید.</string>
+    <string name="network_error">خطای شبکه. لطفاً دوباره تلاش کنید.</string>
+    <string name="config_copied">لینک کانفیگ کپی شد</string>
+    <string name="sub_url_copied">لینک اشتراک کپی شد</string>
+    <string name="vpn_notif_title">Spiritus — %1$s</string>
+    <string name="vpn_notif_disconnect">قطع اتصال</string>
+    <string name="vpn_notif_connecting">در حال اتصال…</string>
+    <string name="vpn_notif_connected">متصل شد — تونل فعال است</string>
+</resources>
